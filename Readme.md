@@ -69,8 +69,7 @@
 <h3 id="fitness-function"><em>Fitness function:</em></h3>
 <p>Fitness is a sum of <strong>pixel-by-pixel</strong> differences from the original image. Lower number is better. By comparing with the <strong>pixel</strong> of target image using <strong>RGB</strong>, we can get the <strong>absolute value</strong> of adding difference.</p>
 <h3 id="crossing-over"><em>Crossing Over:</em></h3>
-<p>we use the uniform crossover, which evaluates each bit in the parent strings for exchange with a probability of 0.5. The offspring has approximately half of the genes from first parent and the other half from second parent, although cross over points can be randomly chosen as seen below:<br>
--<img src="/Users/james/Desktop/crossover.png?raw=true" height="250px"></p>
+<p>we use the uniform crossover, which evaluates each bit in the parent strings for exchange with a probability of 0.5. The offspring has approximately half of the genes from first parent and the other half from second parent, although cross over points can be randomly chosen.</p>
 <h3 id="selector"><em>Selector:</em></h3>
 <p>We use the Tournament selection to choose two parents in crossover. it run several “tournaments” among a few individuals (or “<a href="https://en.wikipedia.org/wiki/Chromosome_(genetic_algorithm)" title="Chromosome (genetic algorithm)">chromosomes</a>”) chosen at random from the population. The winner of each tournament (the one with the best fitness) is selected for <a href="https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)" title="Crossover (genetic algorithm)">crossover</a></p>
 <h3 id="mutation"><em>Mutation:</em></h3>
