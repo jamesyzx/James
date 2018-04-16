@@ -10,6 +10,7 @@
 <li>Zixuan Yu   (001263991)</li>
 </ul>
 <h4 id="team-number--327">Team Number : 327</h4>
+<h4 id="the-application-starts-from-neu.edu.info6205.ui.gaapp.java">*The application starts from <a href="https://github.com/BumbleFeng/GeneticDraw/blob/master/src/edu/neu/info6205/ui/GAApp.java">neu.edu.info6205.ui.GAApp.java</a></h4>
 <h2 id="problem-inspiration">Problem Inspiration:</h2>
 <p>My teammate and I created a genetic algorithm to get an image represented as a collection of <strong>overlapping polygons</strong> of various colors and transparencies. We start from random 100 polygons. In each optimization step, we randomly modify one  parameter (<strong>like color, stacking or position of vertices</strong>) and check whether such new variant looks more like the target image. If it is, we keep it, and continue to mutate this one instead.  Fitness is a sum of pixel-by-pixel <strong>differences from the original image.</strong> <strong>Lower number is better</strong>.</p>
 <h3 id="independent-variables">independent variables:</h3>
